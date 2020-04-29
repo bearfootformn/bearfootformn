@@ -35,7 +35,7 @@
 		overflow:hidden;
 		position:relative;
 		background:url(images/fbcover.png);
-		background-size:cover;
+		background-size:auto;
 	}
 	#header p,
 	#header h1,
