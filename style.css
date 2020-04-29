@@ -36,6 +36,8 @@
 		position:relative;
 		background:url(images/fbcover.png);
 		background-size:auto;
+		background-repeat:no-repeat;
+		background-position:center;
 	}
 	#header p,
 	#header h1,
