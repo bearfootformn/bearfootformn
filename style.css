@@ -2,9 +2,8 @@
 		margin:0;
 		padding:0;
 		border:0;			/* This removes the border around the viewport in old versions of IE */
-		width:100%;
+		width:820px;
 		background:#fff;
-		min-width:600px;		/* Minimum width of layout - remove line if not required */
 						/* The min-width property does not work in old versions of Internet Explorer */
 		font-size:90%;
 	}
@@ -30,7 +29,7 @@
 	/* Header styles */
 	#header {
 		float:left;
-		width:820px;
+		width:100%;
 		height:360px;
 		border-bottom:4px solid #4c8b3f;
 		overflow:hidden;
