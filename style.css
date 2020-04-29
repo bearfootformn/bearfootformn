@@ -35,6 +35,8 @@
 		border-bottom:4px solid #4c8b3f;
 		overflow:hidden;
 		position:relative;
+		background:url(images/fbcover.png);
+		background-size:cover;
 	}
 	#header p,
 	#header h1,
