@@ -30,12 +30,13 @@
 	/* Header styles */
 	#header {
 		float:left;
-		width:100%;
+		width:820px;
+		height:360px;
 		border-bottom:4px solid #4c8b3f;
 		overflow:hidden;
 		position:relative;
 		background:url(images/fbcover.png);
-		background-size:820px 360px;
+		background-size:auto;
 	}
 	#header p,
 	#header h1,
