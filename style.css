@@ -94,6 +94,7 @@
 		clear:both;
 		float:left;
 		width:70%;			/* width of whole page */
+		margin: auto;
 		overflow:hidden;		/* This chops off any overhanging divs */
 	}
 	/* common column settings */
