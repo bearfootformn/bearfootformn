@@ -33,6 +33,7 @@
 		width:100%;
 		height:360px;
 		border-bottom:4px solid #4c8b3f;
+		margin-bottom: 20px;
 		overflow:hidden;
 		position:relative;
 		background:url(images/fbcover.png);
@@ -92,7 +93,6 @@
 	.colmask {
 		position:relative;	/* This fixes the IE7 overflow hidden bug */
 		clear:both;
-		float:left;
 		width:70%;			/* width of whole page */
 		margin: auto;
 		overflow:hidden;		/* This chops off any overhanging divs */
