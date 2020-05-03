@@ -120,6 +120,7 @@
 	.fullpage .col1 {
 		width:96%;			/* page width minus left and right padding */
 		left:2%;			/* page left padding */
+		text-align:justify;
 	}
 	/* Footer styles */
 	#footer {
