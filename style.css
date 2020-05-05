@@ -37,10 +37,10 @@
 		padding-bottom:5px;
 		overflow:hidden;
 		position:relative;
-		background:url(images/fbcover.png);
-		background-size:contain;
+		background:url(images/fbcoverfor2.png),url(images/mecover.png);
+		background-size:380px, contain;
 		background-repeat:no-repeat;
-		background-position:center;
+		background-position:30% 40%, center;
 	}
 	#header p,
 	#header h1,
