@@ -6,7 +6,7 @@
 		margin:auto;
 		background:#fff;
 						/* The min-width property does not work in old versions of Internet Explorer */
-		font-size:90%;
+		font-size:120%;
 	}
 	a {
 		color:#369;
@@ -34,6 +34,7 @@
 		height:360px;
 		border-bottom:4px solid #4c8b3f;
 		margin-bottom: 20px;
+		padding-bottom:5px;
 		overflow:hidden;
 		position:relative;
 		background:url(images/fbcover.png);
@@ -93,7 +94,7 @@
 	.colmask {
 		position:relative;	/* This fixes the IE7 overflow hidden bug */
 		clear:both;
-		width:70%;			/* width of whole page */
+		width:80%;			/* width of whole page */
 		margin: auto;
 		overflow:hidden;		/* This chops off any overhanging divs */
 	}
