@@ -1,3 +1,13 @@
+	@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/GothamBold.eot');
+    src: url('fonts/GothamBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GothamBold.woff2') format('woff2'),
+        url('fonts/GothamBold.woff') format('woff'),
+        url('fonts/GothamBold.svg#GothamBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
 	body {
 		margin:0;
 		padding:0;
@@ -5,6 +15,7 @@
 		width:60%;
 		margin:auto;
 		background:#fff;
+		color:#444;
 						/* The min-width property does not work in old versions of Internet Explorer */
 		font-size:120%;
 	}
@@ -19,6 +30,9 @@
 	h1, h2, h3 {
 		margin:.8em 0 .2em 0;
 		padding:0;
+	}
+	h5 {
+		color:#222;
 	}
 	p {
 		margin:.4em 0 .8em 0;
@@ -37,10 +51,10 @@
 		padding-bottom:5px;
 		overflow:hidden;
 		position:relative;
-		background:url(images/fbcoverfor2.png),url(images/mecover.png);
-		background-size:380px, contain;
+		background:url(images/mecover.png);
+		background-size:contain;
 		background-repeat:no-repeat;
-		background-position:30% 40%, center;
+		background-position:center;
 	}
 	#header p,
 	#header h1,
@@ -74,6 +88,8 @@
 		padding:3px 10px;
 		background:#7dacd1;
 		color:#000;
+		font-family: 'Gotham';
+    		font-style: normal;
 		text-decoration:none;
 		line-height:1.3em;
 	}
@@ -94,7 +110,7 @@
 	.colmask {
 		position:relative;	/* This fixes the IE7 overflow hidden bug */
 		clear:both;
-		width:80%;			/* width of whole page */
+		width:90%;			/* width of whole page */
 		margin: auto;
 		overflow:hidden;		/* This chops off any overhanging divs */
 	}
